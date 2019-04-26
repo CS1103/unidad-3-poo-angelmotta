@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/angelinux/CLionProjects/unidad-3-poo-angelmotta/Carga/Simulacion.cpp
+Simulacion.h
+/Users/angelinux/CLionProjects/unidad-3-poo-angelmotta/Carga/Simulacion.h
+
+/Users/angelinux/CLionProjects/unidad-3-poo-angelmotta/Carga/Simulacion.h
+
+/Users/angelinux/CLionProjects/unidad-3-poo-angelmotta/Carga/carga.cpp
+carga.h
+/Users/angelinux/CLionProjects/unidad-3-poo-angelmotta/Carga/carga.h
+cmath
+-
+
+/Users/angelinux/CLionProjects/unidad-3-poo-angelmotta/Carga/carga.h
+
