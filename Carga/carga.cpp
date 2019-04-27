@@ -12,6 +12,12 @@ double carga::potencial(double _r_x, double _r_y) {
     float r_x = x - _r_x;
     float r_y = y - _r_y;
     float distancia = sqrt(r_x * r_x + r_y* r_y);
-    float v = (k * q)/distancia;
+    float v;
+    if(distancia == 0){
+        v = 0;
+    }
+    else{
+        v = (k * q)/distancia;
+    }
     return v;
 }
